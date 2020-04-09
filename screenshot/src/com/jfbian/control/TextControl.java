@@ -7,7 +7,7 @@ import javafx.scene.layout.AnchorPane;
 
 /**
 * @ClassName:  TextControl
-* @Description:TODO(描述这个类的作用)
+* @Description:文本窗口控制类
 * @author: bianjianfeng
 * @date:   2020年4月8日 下午8:43:21
 */

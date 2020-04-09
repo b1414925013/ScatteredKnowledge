@@ -2,16 +2,19 @@ package com.jfbian.stage;
 
 import java.io.IOException;
 
+import com.jfbian.control.AssistControl;
+
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 /**
 * @ClassName:  CommonStage
-* @Description:TODO(描述这个类的作用)
+* @Description:舞台公共类
 * @author: bianjianfeng
 * @date:   2020年4月9日 上午12:11:56
 */
@@ -19,6 +22,7 @@ public class CommonStage {
     public static Stage mainstage;
     public static Stage textStage;
     public static Stage assistStage;
+    public static AnchorPane assistRoot;
 
     /**
      *
@@ -37,6 +41,7 @@ public class CommonStage {
             mainstage.setTitle("截图小工具");
             mainstage.setResizable(false);
             mainstage.show();
+            System.out.println("主页面开启");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -58,6 +63,7 @@ public class CommonStage {
             textStage.setTitle("识图界面");
             textStage.setResizable(false);
             textStage.show();
+            System.out.println("文本框页面开启");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -66,24 +72,29 @@ public class CommonStage {
     /**
     *
     * @Title: assistStage
-    * @Description: 识图页面
+    * @Description: 辅助页面
     * @return: void
     * @throws
     */
     public static void assistStage() {
-        try {
-            assistStage = new Stage();
-            Parent root = FXMLLoader.load(CommonStage.class.getClass().getResource("/com/jfbian/view/AssistView.fxml"));
-            Scene scene = new Scene(root);
-            scene.setFill(Paint.valueOf("#ffffff00"));
-            assistStage.setScene(scene);
-            assistStage.setFullScreenExitHint("");
-            assistStage.initStyle(StageStyle.TRANSPARENT);
-            assistStage.setFullScreen(true);
-            assistStage.show();
-            System.out.println("辅助视图开启");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        //创建辅助舞台，并设置场景与布局
+        assistStage = new Stage();
+        assistRoot = new AnchorPane();
+        assistRoot.setStyle("-fx-background-color: #85858522");
+        //场景设置白色全透明
+        Scene scene = new Scene(assistRoot);
+        scene.setFill(Paint.valueOf("#ffffff00"));
+        assistStage.setScene(scene);
+        //清楚全屏中间提示文字
+        assistStage.setFullScreenExitHint("");
+        assistStage.initStyle(StageStyle.TRANSPARENT);
+        assistStage.setFullScreen(true);
+        assistStage.show();
+        System.out.println("辅助页面开启");
+        AssistControl assistControl = new AssistControl();
+        assistControl.mousePressed();
+        assistControl.mouseReleased();
+        assistControl.mouseDragged();
+        assistControl.keyPressed();
     }
 }
