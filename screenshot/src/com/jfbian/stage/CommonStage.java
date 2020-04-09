@@ -22,6 +22,7 @@ public class CommonStage {
     public static Stage mainstage;
     public static Stage textStage;
     public static Stage assistStage;
+    public static Stage pathTransformationStage;
     public static AnchorPane assistRoot;
 
     /**
@@ -92,9 +93,33 @@ public class CommonStage {
         assistStage.show();
         System.out.println("辅助页面开启");
         AssistControl assistControl = new AssistControl();
+        assistControl.keyPressed();
         assistControl.mousePressed();
         assistControl.mouseReleased();
         assistControl.mouseDragged();
-        assistControl.keyPressed();
+    }
+
+    /**
+    *
+    * @Title: pathTransformationStage
+    * @Description: 路径转换页面
+    * @param stage
+    * @return: void
+    * @throws
+    */
+    public static void pathTransformationStage() {
+        try {
+            pathTransformationStage = new Stage();
+            Parent root =
+                FXMLLoader.load(CommonStage.class.getResource("/com/jfbian/view/PathTransformationView.fxml"));
+            Scene scene = new Scene(root);
+            pathTransformationStage.setScene(scene);
+            pathTransformationStage.setTitle("路径转换界面");
+            pathTransformationStage.setResizable(false);
+            pathTransformationStage.show();
+            System.out.println("路径转换页面开启");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -22,6 +22,12 @@ public class MainControl {
     Button ocrButton;
 
     @FXML
+    Button pathTFButton;
+
+    @FXML
+    Button ocrButton1;
+
+    @FXML
     public void screenShotAction() {
         System.out.println("截图按键");
         //将主舞台缩放到任务栏
@@ -35,5 +41,13 @@ public class MainControl {
         //将主舞台缩放到任务栏
         mainstage.setIconified(true);
         CommonStage.textStage();
+    }
+
+    @FXML
+    public void pathTFAction() {
+        System.out.println("路径转换按键");
+        //将主舞台缩放到任务栏
+        mainstage.setIconified(true);
+        CommonStage.pathTransformationStage();
     }
 }
