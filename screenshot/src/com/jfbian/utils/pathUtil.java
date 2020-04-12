@@ -6,23 +6,22 @@ import java.net.URISyntaxException;
 
 /**
  * @ClassName:  pathUtil
- * @Description:TODO(描述这个类的作用)
+ * @Description:路径工具类
  * @author: bianjianfeng
  * @date:   2020-04-12 08:57:14
  */
-public class pathUtil {
+public class PathUtil {
     /**
      *
      * @Title: getClassPath
      * @Description: 获取项目classPath目录
      * @return
      * @return: String
-     * @throws
      */
     public static String getClassPath() {
         URI uri;
         try {
-            uri = pathUtil.class.getResource("/").toURI();
+            uri = PathUtil.class.getResource("/").toURI();
             File file = new File(uri);
             return file.getAbsolutePath() + File.separator;
         } catch (URISyntaxException e) {
@@ -32,15 +31,22 @@ public class pathUtil {
     }
 
     /**
-     *
-     * @Title: getRootPath
-     * @Description: 获取项目根目录
-     * @return
-     * @return: String
-     * @throws
-     */
+    *
+    * @Title: getRootPath
+    * @Description: 获取项目根目录
+    * @return: String
+    */
     public static String getRootPath() {
-        String a = new File(pathUtil.getClassPath()).getParent() + File.separator;
-        return a;
+        return new File(PathUtil.getClassPath()).getParent() + File.separator;
+    }
+
+    /**
+     *
+     * @Title: getTemporaryFolder
+     * @Description: 获取临时文件夹
+     * @return: String
+     */
+    public static String getTemporaryFolder() {
+        return System.getProperty("java.io.tmpdir");
     }
 }

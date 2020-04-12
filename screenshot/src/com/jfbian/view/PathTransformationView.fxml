@@ -8,7 +8,7 @@
 	minHeight="-Infinity" minWidth="-Infinity" prefHeight="146.0"
 	prefWidth="315.0" xmlns="http://javafx.com/javafx/8.0.171"
 	xmlns:fx="http://javafx.com/fxml/1"
-	fx:controller="com.jfbian.control.PathTFControl">
+	fx:controller="com.jfbian.control.fxml.imp.PathTFControl">
 	<children>
 		<TextField fx:id="textField1" layoutX="14.0" layoutY="14.0"
 			prefHeight="34.0" prefWidth="281.0" />

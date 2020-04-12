@@ -4,7 +4,8 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 
-import com.jfbian.control.AssistControl;
+import com.jfbian.control.nofxml.AssistControl;
+import com.jfbian.control.nofxml.OcrContorl;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -34,7 +35,6 @@ public class CommonStage {
      * @Description: 主页面
      * @param stage
      * @return: void
-     * @throws
      */
     public static void mainStage(Stage stage) {
         mainstage = stage;
@@ -56,21 +56,15 @@ public class CommonStage {
      * @Title: textStage
      * @Description: 文本框页面
      * @return: void
-     * @throws
      */
     public static void textStage() {
-        try {
-            textStage = new Stage();
-            Parent root = FXMLLoader.load(CommonStage.class.getResource("/com/jfbian/view/TextView.fxml"));
-            Scene scene = new Scene(root);
-            textStage.setScene(scene);
-            textStage.setTitle("识图界面");
-            textStage.setResizable(false);
-            textStage.show();
-            logger.info("文本框页面开启");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        showAssistStage();
+        logger.info("辅助页面开启");
+        OcrContorl ocrContorl = new OcrContorl();
+        ocrContorl.keyPressed();
+        ocrContorl.mousePressed();
+        ocrContorl.mouseDragged();
+        ocrContorl.mouseReleased();
     }
 
     /**
@@ -78,9 +72,23 @@ public class CommonStage {
     * @Title: assistStage
     * @Description: 辅助页面
     * @return: void
-    * @throws
     */
     public static void assistStage() {
+        showAssistStage();
+        logger.info("辅助页面开启");
+        AssistControl assistControl = new AssistControl();
+        assistControl.keyPressed();
+        assistControl.mousePressed();
+        assistControl.mouseReleased();
+        assistControl.mouseDragged();
+    }
+
+    /**
+     * @Title: showAssistStage
+     * @Description: 开启辅助页面
+     * @return: void
+     */
+    public static void showAssistStage() {
         //创建辅助舞台，并设置场景与布局
         assistStage = new Stage();
         assistRoot = new AnchorPane();
@@ -94,12 +102,6 @@ public class CommonStage {
         assistStage.initStyle(StageStyle.TRANSPARENT);
         assistStage.setFullScreen(true);
         assistStage.show();
-        logger.info("辅助页面开启");
-        AssistControl assistControl = new AssistControl();
-        assistControl.keyPressed();
-        assistControl.mousePressed();
-        assistControl.mouseReleased();
-        assistControl.mouseDragged();
     }
 
     /**
@@ -108,7 +110,6 @@ public class CommonStage {
     * @Description: 路径转换页面
     * @param stage
     * @return: void
-    * @throws
     */
     public static void pathTransformationStage() {
         try {
