@@ -1,8 +1,6 @@
 package com.jfbian.utils;
 
 import java.io.File;
-import java.net.URI;
-import java.net.URISyntaxException;
 
 /**
  * @ClassName:  pathUtil
@@ -11,24 +9,6 @@ import java.net.URISyntaxException;
  * @date:   2020-04-12 08:57:14
  */
 public class PathUtil {
-    /**
-     *
-     * @Title: getClassPath
-     * @Description: 获取项目classPath目录
-     * @return
-     * @return: String
-     */
-    public static String getClassPath() {
-        URI uri;
-        try {
-            uri = PathUtil.class.getResource("/").toURI();
-            File file = new File(uri);
-            return file.getAbsolutePath() + File.separator;
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
 
     /**
     *
@@ -37,7 +17,7 @@ public class PathUtil {
     * @return: String
     */
     public static String getRootPath() {
-        return new File(PathUtil.getClassPath()).getParent() + File.separator;
+        return System.getProperty("user.dir") + File.separator;
     }
 
     /**
