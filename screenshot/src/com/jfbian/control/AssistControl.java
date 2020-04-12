@@ -1,18 +1,13 @@
 package com.jfbian.control;
 
-import java.awt.Rectangle;
-import java.awt.Robot;
-import java.awt.image.BufferedImage;
+import org.apache.log4j.Logger;
 
 import com.jfbian.stage.CommonStage;
+import com.jfbian.utils.imgUtil;
 
-import javafx.embed.swing.SwingFXUtils;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.image.WritableImage;
-import javafx.scene.input.Clipboard;
-import javafx.scene.input.ClipboardContent;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Border;
@@ -30,6 +25,7 @@ import javafx.stage.Stage;
  * @date:   2020年4月8日 下午11:24:03
  */
 public class AssistControl {
+    private static Logger logger = Logger.getLogger(AssistControl.class);
     private Stage mainstage = CommonStage.mainstage;
     private Stage assistStage = CommonStage.assistStage;
     private HBox hBox;
@@ -41,6 +37,15 @@ public class AssistControl {
     private AnchorPane assistRoot = CommonStage.assistRoot;
 
     /**
+    *
+    * @Title: initialize
+    * @Description: 类加载时候运行的方法
+    * @return: void
+    * @throws
+    */
+    public void initialize() {}
+
+    /**
      *
      * @Title: mousePressed
      * @Description: 鼠标按下
@@ -48,7 +53,7 @@ public class AssistControl {
      * @throws
      */
     public void mousePressed() {
-        System.out.println("鼠标按下事件绑定");
+        logger.info("鼠标按下事件绑定");
         assistRoot.setOnMousePressed(event -> {
             //清除锚点布局中所有子元素
             assistRoot.getChildren().clear();
@@ -77,7 +82,7 @@ public class AssistControl {
      * @throws
      */
     public void mouseDragged() {
-        System.out.println("鼠标拖动事件绑定");
+        logger.info("鼠标拖动事件绑定");
         assistRoot.setOnMouseDragged(event -> {
             //用label记录切图区域的长宽
             Label label = new Label();
@@ -106,7 +111,7 @@ public class AssistControl {
      * @throws
      */
     public void mouseReleased() {
-        System.out.println("鼠标抬起事件绑定");
+        logger.info("鼠标抬起事件绑定");
         assistRoot.setOnMouseReleased(event -> {
             //记录最终长宽
             w = Math.abs(event.getSceneX() - start_x);
@@ -124,7 +129,7 @@ public class AssistControl {
                 assistStage.close();
                 try {
                     //切图具体方法
-                    capterImg();
+                    imgUtil.capterImg((int)start_x, (int)start_y, (int)w, (int)h);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -142,43 +147,12 @@ public class AssistControl {
      * @throws
      */
     public void keyPressed() {
-        System.out.println("按下ESC键绑定");
+        logger.info("按下ESC键绑定");
         assistRoot.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.ESCAPE) {
                 assistStage.close();
                 mainstage.setIconified(false);
             }
         });
-    }
-
-    /**
-    *
-    * @Title: capterImg
-    * @Description: 截图方法
-    * @throws Exception
-    * @return: void
-    * @throws
-    */
-    public void capterImg() throws Exception {
-        //利用awt中的方法，通过记录的起始点和长宽完成屏幕截图
-        Robot robot = new Robot();
-        Rectangle re = new Rectangle((int)start_x, (int)start_y, (int)w, (int)h);
-        BufferedImage screenCapture = robot.createScreenCapture(re);
-        //截图图片背景透明处理
-        //BufferedImage bufferedImage = Picture4.transferAlpha(screenCapture);
-        //不进行背景透明处理
-        BufferedImage bufferedImage = screenCapture;
-        //转换图片格式展示在主舞台的场景中
-        WritableImage writableImage = SwingFXUtils.toFXImage(bufferedImage, null);
-        //iv.setImage(writableImage);
-
-        //将截图内容，放入系统剪切板
-        Clipboard cb = Clipboard.getSystemClipboard();
-        ClipboardContent content = new ClipboardContent();
-        content.putImage(writableImage);
-        cb.setContent(content);
-
-        //将截取图片放入到系统固定位置
-        // ImageIO.write(bufferedImage, "png", new File("E:/capter.png"));
     }
 }

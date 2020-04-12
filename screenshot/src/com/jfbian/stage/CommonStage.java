@@ -2,6 +2,8 @@ package com.jfbian.stage;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
+
 import com.jfbian.control.AssistControl;
 
 import javafx.fxml.FXMLLoader;
@@ -19,6 +21,7 @@ import javafx.stage.StageStyle;
 * @date:   2020年4月9日 上午12:11:56
 */
 public class CommonStage {
+    private static Logger logger = Logger.getLogger(CommonStage.class);
     public static Stage mainstage;
     public static Stage textStage;
     public static Stage assistStage;
@@ -42,7 +45,7 @@ public class CommonStage {
             mainstage.setTitle("截图小工具");
             mainstage.setResizable(false);
             mainstage.show();
-            System.out.println("主页面开启");
+            logger.info("主页面开启");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -64,7 +67,7 @@ public class CommonStage {
             textStage.setTitle("识图界面");
             textStage.setResizable(false);
             textStage.show();
-            System.out.println("文本框页面开启");
+            logger.info("文本框页面开启");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -91,7 +94,7 @@ public class CommonStage {
         assistStage.initStyle(StageStyle.TRANSPARENT);
         assistStage.setFullScreen(true);
         assistStage.show();
-        System.out.println("辅助页面开启");
+        logger.info("辅助页面开启");
         AssistControl assistControl = new AssistControl();
         assistControl.keyPressed();
         assistControl.mousePressed();
@@ -117,7 +120,7 @@ public class CommonStage {
             pathTransformationStage.setTitle("路径转换界面");
             pathTransformationStage.setResizable(false);
             pathTransformationStage.show();
-            System.out.println("路径转换页面开启");
+            logger.info("路径转换页面开启");
         } catch (IOException e) {
             e.printStackTrace();
         }

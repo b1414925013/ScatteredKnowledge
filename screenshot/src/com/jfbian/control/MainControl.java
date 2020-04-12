@@ -1,5 +1,7 @@
 package com.jfbian.control;
 
+import org.apache.log4j.Logger;
+
 import com.jfbian.stage.CommonStage;
 
 import javafx.fxml.FXML;
@@ -13,11 +15,12 @@ import javafx.stage.Stage;
 * @date:   2020年4月8日 下午8:28:59
 */
 public class MainControl {
-
+    private static Logger logger = Logger.getLogger(MainControl.class);
     private Stage mainstage = CommonStage.mainstage;
 
     @FXML
     Button screenShotButton;
+
     @FXML
     Button ocrButton;
 
@@ -29,7 +32,7 @@ public class MainControl {
 
     @FXML
     public void screenShotAction() {
-        System.out.println("截图按键");
+        logger.info("截图按键");
         //将主舞台缩放到任务栏
         mainstage.setIconified(true);
         CommonStage.assistStage();
@@ -37,7 +40,7 @@ public class MainControl {
 
     @FXML
     public void ocrAction() {
-        System.out.println("ocr按键");
+        logger.info("ocr按键");
         //将主舞台缩放到任务栏
         mainstage.setIconified(true);
         CommonStage.textStage();
@@ -45,7 +48,7 @@ public class MainControl {
 
     @FXML
     public void pathTFAction() {
-        System.out.println("路径转换按键");
+        logger.info("路径转换按键");
         //将主舞台缩放到任务栏
         mainstage.setIconified(true);
         CommonStage.pathTransformationStage();
