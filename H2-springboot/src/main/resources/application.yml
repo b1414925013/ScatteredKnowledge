@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    data: classpath:db/data-h2.sql #初始化时给数据库表添加数据
+    driverClassName: org.h2.Driver
+    password: ''
+    schema: classpath:db/schema-h2.sql #初始化一张数据库表
+    url: jdbc:h2:file:~/.h2/testdb #用户目录下的.h2文件夹
+    username: sa
+  h2:
+    console:
+      enabled: true #数据库访问路径 http://localhost:8081/h2-console
+server:
+  port: 8081 #页面访问数据库的端口
