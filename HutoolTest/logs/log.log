@@ -1,8 +1,4 @@
-2020-04-29 22:48:25.188  INFO 1532 --- [main] com.jfbian.App                           : Starting App on SC-202003071912 with PID 1532 (D:\develop\IDEA-workspace\HutoolTest\target\classes started by Administrator in D:\develop\IDEA-workspace\HutoolTest)
-2020-04-29 22:48:25.191  INFO 1532 --- [main] com.jfbian.App                           : No active profile set, falling back to default profiles: default
-2020-04-29 22:48:25.661  INFO 1532 --- [main] com.jfbian.App                           : Started App in 0.823 seconds (JVM running for 1.677)
-2020-04-29 22:48:25.662  INFO 1532 --- [main] com.jfbian.App                           : 我是lombok插件输出的日志
-2020-04-29 22:48:45.626  INFO 3936 --- [main] com.jfbian.App                           : Starting App on SC-202003071912 with PID 3936 (D:\develop\IDEA-workspace\HutoolTest\target\classes started by Administrator in D:\develop\IDEA-workspace\HutoolTest)
-2020-04-29 22:48:45.629  INFO 3936 --- [main] com.jfbian.App                           : No active profile set, falling back to default profiles: default
-2020-04-29 22:48:46.099  INFO 3936 --- [main] com.jfbian.App                           : Started App in 0.844 seconds (JVM running for 1.714)
-2020-04-29 22:48:46.101  INFO 3936 --- [main] com.jfbian.App                           : 我是lombok插件输出的日志
+2020-04-29 23:38:15.233  INFO 10480 --- [main] com.jfbian.App                           : Starting App on SC-202003071912 with PID 10480 (D:\develop\IDEA-workspace\HutoolTest\target\classes started by Administrator in D:\develop\IDEA-workspace\HutoolTest)
+2020-04-29 23:38:15.236  INFO 10480 --- [main] com.jfbian.App                           : No active profile set, falling back to default profiles: default
+2020-04-29 23:38:15.832  INFO 10480 --- [main] com.jfbian.App                           : Started App in 1.091 seconds (JVM running for 1.584)
+2020-04-29 23:38:15.833  INFO 10480 --- [main] com.jfbian.App                           : 我是lombok插件输出的日志
