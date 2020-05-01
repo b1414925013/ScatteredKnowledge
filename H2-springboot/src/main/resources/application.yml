@@ -4,7 +4,9 @@ spring:
     driverClassName: org.h2.Driver
     password: ''
     schema: classpath:db/schema-h2.sql #初始化一张数据库表
-    url: jdbc:h2:file:~/.h2/testdb #用户目录下的.h2文件夹
+    #    url: jdbc:h2:file:~/.h2/testdb #用户目录下的.h2文件夹（本地数据库）
+    #    url: jdbc:h2:mem:test #内存数据库
+    url: jdbc:h2:./data/test #相对项目路径
     username: sa
   h2:
     console:
