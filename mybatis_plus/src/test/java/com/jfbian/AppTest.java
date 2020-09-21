@@ -26,7 +26,7 @@ public class AppTest {
     }
     @Test
     public void name3() {
-        User user = userMapper.selectByIdTest(3);
+        User user = userMapper.selectByIdTest(3L);
         System.out.println(user);
     }
     // 测试插入
