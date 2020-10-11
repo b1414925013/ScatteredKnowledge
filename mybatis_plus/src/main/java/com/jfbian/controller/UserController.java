@@ -1,8 +1,8 @@
 package com.jfbian.controller;
 
 
-import com.jfbian.dto.PageResult;
-import com.jfbian.dto.Result;
+import com.jfbian.model.PageResult;
+import com.jfbian.model.Result;
 import com.jfbian.pojo.User;
 import com.jfbian.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

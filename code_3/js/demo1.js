@@ -22,3 +22,16 @@ $("#btn").click(function () {
         }
     })
 })
+$("#btn2").click(function () {
+    axios.get(_url + "/userModer/user/all", {
+        params: params
+      })
+      .then(function (response) {
+        console.log(response);
+        divid.text("请求成功")
+      })
+      .catch(function (error) {
+        console.log(error);
+        divid.text("请求失败")
+      });
+})

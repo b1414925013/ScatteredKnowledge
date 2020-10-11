@@ -1,241 +1,130 @@
-2020-09-21 19:44:15.469 - INFO 7884 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 7884 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:44:15.480 - INFO 7884 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:44:15.569 - INFO 7884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:44:15.570 - INFO 7884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:44:17.182 - INFO 7884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:44:17.194 - INFO 7884 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:44:17.195 - INFO 7884 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:44:17.297 - INFO 7884 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:44:17.298 - INFO 7884 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1728 ms
-2020-09-21 19:44:17.604 - INFO 7884 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:44:17.800 - INFO 7884 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:44:18.500 - INFO 7884 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:44:18.754 - INFO 7884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:44:18.819 - INFO 7884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:44:18.823 - INFO 7884 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.943 seconds (JVM running for 5.101)
-2020-09-21 19:44:35.962 - INFO 7884 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:44:35.962 - INFO 7884 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:44:35.971 - INFO 7884 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 8 ms
-2020-09-21 19:48:29.425 - INFO 10912 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 10912 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:48:29.429 - INFO 10912 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:48:29.483 - INFO 10912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:48:29.484 - INFO 10912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:48:30.863 - INFO 10912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:48:30.873 - INFO 10912 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:48:30.874 - INFO 10912 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:48:30.982 - INFO 10912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:48:30.982 - INFO 10912 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1498 ms
-2020-09-21 19:48:31.277 - INFO 10912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:48:31.412 - INFO 10912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:48:31.899 - INFO 10912 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:48:32.106 - INFO 10912 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:48:32.160 - INFO 10912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:48:32.164 - INFO 10912 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.187 seconds (JVM running for 4.302)
-2020-09-21 19:48:48.413 - INFO 10912 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:48:48.413 - INFO 10912 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:48:48.419 - INFO 10912 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 5 ms
-2020-09-21 19:49:29.384 - INFO 10572 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 10572 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:49:29.388 - INFO 10572 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:49:29.445 - INFO 10572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:49:29.446 - INFO 10572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:49:30.725 - INFO 10572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:49:30.735 - INFO 10572 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:49:30.736 - INFO 10572 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:49:30.822 - INFO 10572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:49:30.822 - INFO 10572 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1376 ms
-2020-09-21 19:49:31.045 - INFO 10572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:49:31.177 - INFO 10572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:49:31.608 - INFO 10572 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:49:31.701 - INFO 10572 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping   [lineno:54]: Adding welcome page: class path resource [static/index.html]
-2020-09-21 19:49:31.828 - INFO 10572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:49:31.884 - INFO 10572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:49:31.888 - INFO 10572 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 2.948 seconds (JVM running for 3.932)
-2020-09-21 19:49:39.838 - INFO 10572 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:49:39.838 - INFO 10572 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:49:39.845 - INFO 10572 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 7 ms
-2020-09-21 19:50:24.697 - INFO 3272 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 3272 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:50:24.701 - INFO 3272 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:50:24.765 - INFO 3272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:50:24.765 - INFO 3272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:50:26.011 - INFO 3272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:50:26.021 - INFO 3272 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:50:26.022 - INFO 3272 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:50:26.109 - INFO 3272 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:50:26.110 - INFO 3272 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1344 ms
-2020-09-21 19:50:26.340 - INFO 3272 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:50:26.492 - INFO 3272 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:50:26.949 - INFO 3272 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:50:27.023 - INFO 3272 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping   [lineno:54]: Adding welcome page: class path resource [static/index.html]
-2020-09-21 19:50:27.147 - INFO 3272 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:50:27.205 - INFO 3272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:50:27.209 - INFO 3272 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 2.966 seconds (JVM running for 3.983)
-2020-09-21 19:50:34.658 - INFO 3272 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:50:34.658 - INFO 3272 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:50:34.665 - INFO 3272 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
-2020-09-21 19:51:57.628 - INFO 5452 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 5452 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:51:57.632 - INFO 5452 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:51:57.687 - INFO 5452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:51:57.687 - INFO 5452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:51:58.943 - INFO 5452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:51:58.954 - INFO 5452 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:51:58.954 - INFO 5452 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:51:59.041 - INFO 5452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:51:59.042 - INFO 5452 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1354 ms
-2020-09-21 19:51:59.268 - INFO 5452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:51:59.407 - INFO 5452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:51:59.847 - INFO 5452 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:51:59.922 - INFO 5452 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping   [lineno:54]: Adding welcome page: class path resource [static/index.html]
-2020-09-21 19:52:00.048 - INFO 5452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:52:00.105 - INFO 5452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:52:00.109 - INFO 5452 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 2.907 seconds (JVM running for 3.858)
-2020-09-21 19:52:04.821 - INFO 5452 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:52:04.822 - INFO 5452 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:52:04.828 - INFO 5452 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
-2020-09-21 19:52:37.774 - INFO 9220 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 9220 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:52:37.778 - INFO 9220 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:52:37.838 - INFO 9220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:52:37.839 - INFO 9220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:52:39.067 - INFO 9220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:52:39.078 - INFO 9220 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:52:39.079 - INFO 9220 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:52:39.165 - INFO 9220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:52:39.166 - INFO 9220 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1326 ms
-2020-09-21 19:52:39.386 - INFO 9220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:52:39.522 - INFO 9220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:52:39.945 - INFO 9220 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:52:40.018 - INFO 9220 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping   [lineno:54]: Adding welcome page: class path resource [static/index.html]
-2020-09-21 19:52:40.144 - INFO 9220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:52:40.199 - INFO 9220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:52:40.202 - INFO 9220 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 2.861 seconds (JVM running for 3.796)
-2020-09-21 19:52:46.640 - INFO 9220 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:52:46.641 - INFO 9220 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:52:46.647 - INFO 9220 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
-2020-09-21 19:54:11.076 - INFO 9532 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 9532 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:54:11.080 - INFO 9532 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:54:11.132 - INFO 9532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:54:11.132 - INFO 9532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:54:12.373 - INFO 9532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:54:12.384 - INFO 9532 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:54:12.384 - INFO 9532 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:54:12.469 - INFO 9532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:54:12.469 - INFO 9532 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1337 ms
-2020-09-21 19:54:12.695 - INFO 9532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:54:12.834 - INFO 9532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:54:13.344 - INFO 9532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:54:13.428 - INFO 9532 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping   [lineno:54]: Adding welcome page: class path resource [static/index.html]
-2020-09-21 19:54:13.572 - INFO 9532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:54:13.627 - INFO 9532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:54:13.631 - INFO 9532 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 2.988 seconds (JVM running for 3.927)
-2020-09-21 19:54:19.566 - INFO 9532 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:54:19.567 - INFO 9532 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:54:19.573 - INFO 9532 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
-2020-09-21 19:56:28.077 - INFO 1868 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 1868 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:56:28.081 - INFO 1868 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:56:28.142 - INFO 1868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:56:28.143 - INFO 1868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:56:29.386 - INFO 1868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:56:29.397 - INFO 1868 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:56:29.398 - INFO 1868 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:56:29.485 - INFO 1868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:56:29.486 - INFO 1868 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1343 ms
-2020-09-21 19:56:29.707 - INFO 1868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:56:29.842 - INFO 1868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:56:30.276 - INFO 1868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:56:30.347 - INFO 1868 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping   [lineno:54]: Adding welcome page: class path resource [static/index.html]
-2020-09-21 19:56:30.473 - INFO 1868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:56:30.528 - INFO 1868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:56:30.532 - INFO 1868 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 2.912 seconds (JVM running for 3.893)
-2020-09-21 19:56:37.638 - INFO 1868 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:56:37.638 - INFO 1868 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:56:37.644 - INFO 1868 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
-2020-09-21 19:58:17.922 - INFO 10456 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 10456 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:58:17.925 - INFO 10456 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:58:17.986 - INFO 10456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:58:17.987 - INFO 10456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:58:19.273 - INFO 10456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:58:19.287 - INFO 10456 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:58:19.288 - INFO 10456 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:58:19.380 - INFO 10456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:58:19.380 - INFO 10456 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1393 ms
-2020-09-21 19:58:19.600 - INFO 10456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:58:19.730 - INFO 10456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:58:20.124 - INFO 10456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:58:20.193 - INFO 10456 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping   [lineno:54]: Adding welcome page: class path resource [static/index.html]
-2020-09-21 19:58:20.353 - INFO 10456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:58:20.408 - INFO 10456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:58:20.412 - INFO 10456 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 2.948 seconds (JVM running for 3.935)
-2020-09-21 19:58:29.813 - INFO 10456 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 19:58:29.813 - INFO 10456 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 19:58:29.819 - INFO 10456 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
-2020-09-21 19:59:35.170 - INFO 6316 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 6316 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 19:59:35.176 - INFO 6316 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 19:59:35.253 - INFO 6316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 19:59:35.254 - INFO 6316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 19:59:36.843 - INFO 6316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 19:59:36.854 - INFO 6316 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 19:59:36.854 - INFO 6316 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 19:59:36.944 - INFO 6316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 19:59:36.945 - INFO 6316 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1691 ms
-2020-09-21 19:59:37.169 - INFO 6316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 19:59:37.304 - INFO 6316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 19:59:37.720 - INFO 6316 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 19:59:37.795 - INFO 6316 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping   [lineno:54]: Adding welcome page: class path resource [static/index.html]
-2020-09-21 19:59:37.962 - INFO 6316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 19:59:38.026 - INFO 6316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 19:59:38.030 - INFO 6316 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.402 seconds (JVM running for 4.408)
-2020-09-21 20:00:03.000 - INFO 6316 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 20:00:03.000 - INFO 6316 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 20:00:03.006 - INFO 6316 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
-2020-09-21 20:00:55.109 - INFO 6316 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:218]: Shutting down ExecutorService 'applicationTaskExecutor'
-2020-09-21 20:00:55.110 - INFO 6316 --- [Thread-11] com.zaxxer.hikari.HikariDataSource      [lineno:350]: HikariPool-1 - Shutdown initiated...
-2020-09-21 20:00:55.117 - INFO 6316 --- [Thread-11] com.zaxxer.hikari.HikariDataSource      [lineno:352]: HikariPool-1 - Shutdown completed.
-2020-09-21 20:00:55.559 - INFO 6316 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 6316 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 20:00:55.559 - INFO 6316 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 20:00:55.924 - INFO 6316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 20:00:55.925 - INFO 6316 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 20:00:55.926 - INFO 6316 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 20:00:55.947 - INFO 6316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 20:00:55.947 - INFO 6316 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 384 ms
-2020-09-21 20:00:56.001 - INFO 6316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-2 - Starting...
-2020-09-21 20:00:56.006 - INFO 6316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-2 - Start completed.
-2020-09-21 20:00:56.101 - INFO 6316 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 20:00:56.196 - INFO 6316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 20:00:56.219 - INFO 6316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 20:00:56.220 - INFO 6316 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 0.698 seconds (JVM running for 82.599)
-2020-09-21 20:00:56.222 - INFO 6316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener[lineno:63]: Condition evaluation unchanged
-2020-09-21 20:01:14.156 - INFO 6088 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 6088 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 20:01:14.160 - INFO 6088 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 20:01:14.235 - INFO 6088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 20:01:14.235 - INFO 6088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 20:01:15.645 - INFO 6088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 20:01:15.656 - INFO 6088 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 20:01:15.656 - INFO 6088 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 20:01:15.745 - INFO 6088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 20:01:15.746 - INFO 6088 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1510 ms
-2020-09-21 20:01:15.985 - INFO 6088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 20:01:16.145 - INFO 6088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 20:01:16.564 - INFO 6088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 20:01:16.788 - INFO 6088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 20:01:16.843 - INFO 6088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 20:01:16.847 - INFO 6088 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.214 seconds (JVM running for 4.202)
-2020-09-21 20:01:23.331 - INFO 6088 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 20:01:23.332 - INFO 6088 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 20:01:23.338 - INFO 6088 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
-2020-09-21 20:07:16.246 - INFO 8140 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 8140 (D:\develop\IDEA-workspace\mybatis_plus\target\classes started by Administrator in D:\develop\IDEA-workspace\mybatis_plus)
-2020-09-21 20:07:16.253 - INFO 8140 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
-2020-09-21 20:07:16.340 - INFO 8140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-21 20:07:16.340 - INFO 8140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-21 20:07:17.779 - INFO 8140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
-2020-09-21 20:07:17.791 - INFO 8140 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
-2020-09-21 20:07:17.791 - INFO 8140 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-09-21 20:07:17.896 - INFO 8140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
-2020-09-21 20:07:17.897 - INFO 8140 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1556 ms
-2020-09-21 20:07:18.127 - INFO 8140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
-2020-09-21 20:07:18.267 - INFO 8140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
-2020-09-21 20:07:18.680 - INFO 8140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-21 20:07:18.914 - INFO 8140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
-2020-09-21 20:07:18.972 - INFO 8140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
-2020-09-21 20:07:18.976 - INFO 8140 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.288 seconds (JVM running for 4.317)
-2020-09-21 20:07:49.487 - INFO 8140 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-21 20:07:49.487 - INFO 8140 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
-2020-09-21 20:07:49.493 - INFO 8140 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 6 ms
+2020-10-08 13:54:03.081 - INFO 4368 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 4368 (D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus\target\classes started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-08 13:54:03.092 - INFO 4368 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
+2020-10-08 13:54:03.183 - INFO 4368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-08 13:54:03.184 - INFO 4368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-08 13:54:04.861 - INFO 4368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
+2020-10-08 13:54:04.874 - INFO 4368 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
+2020-10-08 13:54:04.874 - INFO 4368 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-10-08 13:54:04.988 - INFO 4368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
+2020-10-08 13:54:04.989 - INFO 4368 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1805 ms
+2020-10-08 13:54:05.281 - INFO 4368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:110]: HikariPool-1 - Starting...
+2020-10-08 13:54:05.447 - INFO 4368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource      [lineno:123]: HikariPool-1 - Start completed.
+2020-10-08 13:54:05.915 - INFO 4368 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-08 13:54:06.233 - INFO 4368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
+2020-10-08 13:54:06.304 - INFO 4368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
+2020-10-08 13:54:06.310 - INFO 4368 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.822 seconds (JVM running for 5.102)
+2020-10-08 20:30:50.294 - INFO 5900 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 5900 (D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus\target\classes started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-08 20:30:50.294 - INFO 5900 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
+2020-10-08 20:30:50.357 - INFO 5900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-08 20:30:50.357 - INFO 5900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-08 20:30:51.763 - INFO 5900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
+2020-10-08 20:30:51.779 - INFO 5900 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
+2020-10-08 20:30:51.779 - INFO 5900 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-10-08 20:30:51.888 - INFO 5900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
+2020-10-08 20:30:51.888 - INFO 5900 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1531 ms
+2020-10-08 20:30:52.113 - INFO 5900 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure[lineno:56]: Init DruidDataSource
+2020-10-08 20:30:52.269 - INFO 5900 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-08 20:30:52.675 - INFO 5900 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-08 20:30:52.894 - INFO 5900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
+2020-10-08 20:30:52.970 - INFO 5900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
+2020-10-08 20:30:52.974 - INFO 5900 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.096 seconds (JVM running for 4.094)
+2020-10-08 20:31:36.467 - INFO 5900 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-08 20:31:36.468 - INFO 5900 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
+2020-10-08 20:31:36.478 - INFO 5900 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 10 ms
+2020-10-08 22:56:04.078 - INFO 5900 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:218]: Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-08 22:56:04.080 - INFO 5900 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource  [lineno:1825]: {dataSource-1} closed
+2020-10-08 22:56:04.462 - INFO 5900 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 5900 (D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus\target\classes started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-08 22:56:04.462 - INFO 5900 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
+2020-10-08 22:56:04.869 - INFO 5900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
+2020-10-08 22:56:04.871 - INFO 5900 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
+2020-10-08 22:56:04.871 - INFO 5900 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-10-08 22:56:04.892 - INFO 5900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
+2020-10-08 22:56:04.893 - INFO 5900 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 426 ms
+2020-10-08 22:56:04.951 - INFO 5900 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure[lineno:56]: Init DruidDataSource
+2020-10-08 22:56:04.998 - INFO 5900 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-2} inited
+2020-10-08 22:56:05.139 - INFO 5900 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-08 22:56:05.232 - INFO 5900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
+2020-10-08 22:56:05.264 - INFO 5900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
+2020-10-08 22:56:05.279 - INFO 5900 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 0.862 seconds (JVM running for 8716.4)
+2020-10-08 22:56:05.279 - INFO 5900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener[lineno:63]: Condition evaluation unchanged
+2020-10-08 23:00:37.026 - INFO 5628 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 5628 (D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus\target\classes started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-08 23:00:37.026 - INFO 5628 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
+2020-10-08 23:00:37.088 - INFO 5628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-08 23:00:37.088 - INFO 5628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-08 23:00:38.385 - INFO 5628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
+2020-10-08 23:00:38.401 - INFO 5628 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
+2020-10-08 23:00:38.401 - INFO 5628 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-10-08 23:00:38.494 - INFO 5628 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
+2020-10-08 23:00:38.494 - INFO 5628 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1406 ms
+2020-10-08 23:00:38.901 - INFO 5628 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-08 23:00:39.323 - INFO 5628 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor [lineno:181]: Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-08 23:00:39.573 - INFO 5628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
+2020-10-08 23:00:39.635 - INFO 5628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
+2020-10-08 23:00:39.635 - INFO 5628 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.055 seconds (JVM running for 4.052)
+2020-10-08 23:37:51.664 - INFO 5628 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-08 23:37:51.665 - INFO 5628 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
+2020-10-08 23:37:51.672 - INFO 5628 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 7 ms
+2020-10-08 23:53:10.181 - INFO 10696 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 10696 (D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus\target\classes started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-08 23:53:10.185 - INFO 10696 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
+2020-10-08 23:53:10.262 - INFO 10696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-08 23:53:10.263 - INFO 10696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-08 23:53:11.585 - INFO 10696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
+2020-10-08 23:53:11.596 - INFO 10696 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
+2020-10-08 23:53:11.597 - INFO 10696 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-10-08 23:53:11.698 - INFO 10696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
+2020-10-08 23:53:11.698 - INFO 10696 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1434 ms
+2020-10-08 23:53:12.119 - INFO 10696 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-08 23:53:12.800 - INFO 10696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
+2020-10-08 23:53:12.869 - INFO 10696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
+2020-10-08 23:53:12.873 - INFO 10696 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.234 seconds (JVM running for 4.263)
+2020-10-08 23:58:14.762 - INFO 10496 --- [main] com.jfbian.AppTest                      [lineno:55]: Starting AppTest on SC-202003071912 with PID 10496 (started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-08 23:58:14.764 - INFO 10496 --- [main] com.jfbian.AppTest                      [lineno:655]: The following profiles are active: dev
+2020-10-08 23:58:16.932 - INFO 10496 --- [main] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-08 23:58:18.490 - INFO 10496 --- [main] com.jfbian.AppTest                      [lineno:61]: Started AppTest in 4.125 seconds (JVM running for 5.689)
+2020-10-08 23:58:19.049 - INFO 10496 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource  [lineno:1825]: {dataSource-1} closed
+2020-10-08 23:59:50.575 - INFO 9744 --- [main] com.jfbian.AppTest                      [lineno:55]: Starting AppTest on SC-202003071912 with PID 9744 (started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-08 23:59:50.579 - INFO 9744 --- [main] com.jfbian.AppTest                      [lineno:655]: The following profiles are active: dev
+2020-10-08 23:59:52.617 - INFO 9744 --- [main] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-08 23:59:54.236 - INFO 9744 --- [main] com.jfbian.AppTest                      [lineno:61]: Started AppTest in 4.15 seconds (JVM running for 5.634)
+2020-10-08 23:59:54.662 - INFO 9744 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource  [lineno:1825]: {dataSource-1} closed
+2020-10-09 00:00:17.712 - INFO 2664 --- [main] com.jfbian.AppTest                      [lineno:55]: Starting AppTest on SC-202003071912 with PID 2664 (started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-09 00:00:17.725 - INFO 2664 --- [main] com.jfbian.AppTest                      [lineno:655]: The following profiles are active: dev
+2020-10-09 00:00:19.772 - INFO 2664 --- [main] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-09 00:00:21.284 - INFO 2664 --- [main] com.jfbian.AppTest                      [lineno:61]: Started AppTest in 4.041 seconds (JVM running for 5.581)
+2020-10-09 00:00:21.721 - INFO 2664 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource  [lineno:1825]: {dataSource-1} closed
+2020-10-09 00:01:48.677 - INFO 10716 --- [restartedMain] com.jfbian.App                          [lineno:55]: Starting App on SC-202003071912 with PID 10716 (D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus\target\classes started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-09 00:01:48.682 - INFO 10716 --- [restartedMain] com.jfbian.App                          [lineno:655]: The following profiles are active: dev
+2020-10-09 00:01:48.763 - INFO 10716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-09 00:01:48.763 - INFO 10716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor[lineno:225]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-09 00:01:50.099 - INFO 10716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:92]: Tomcat initialized with port(s): 80 (http)
+2020-10-09 00:01:50.110 - INFO 10716 --- [restartedMain] o.apache.catalina.core.StandardService  [lineno:173]: Starting service [Tomcat]
+2020-10-09 00:01:50.110 - INFO 10716 --- [restartedMain] org.apache.catalina.core.StandardEngine [lineno:173]: Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-10-09 00:01:50.214 - INFO 10716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring embedded WebApplicationContext
+2020-10-09 00:01:50.215 - INFO 10716 --- [restartedMain] o.s.web.context.ContextLoader           [lineno:284]: Root WebApplicationContext: initialization completed in 1451 ms
+2020-10-09 00:01:50.646 - INFO 10716 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-09 00:01:51.370 - INFO 10716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer      [lineno:58]: LiveReload server is running on port 35729
+2020-10-09 00:01:51.466 - INFO 10716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer [lineno:204]: Tomcat started on port(s): 80 (http) with context path ''
+2020-10-09 00:01:51.470 - INFO 10716 --- [restartedMain] com.jfbian.App                          [lineno:61]: Started App in 3.255 seconds (JVM running for 4.326)
+2020-10-09 00:02:04.073 - INFO 1460 --- [main] com.jfbian.AppTest                      [lineno:55]: Starting AppTest on SC-202003071912 with PID 1460 (started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-09 00:02:04.076 - INFO 1460 --- [main] com.jfbian.AppTest                      [lineno:655]: The following profiles are active: dev
+2020-10-09 00:02:06.113 - INFO 1460 --- [main] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-09 00:02:07.859 - INFO 1460 --- [main] com.jfbian.AppTest                      [lineno:61]: Started AppTest in 4.287 seconds (JVM running for 5.769)
+2020-10-09 00:02:08.376 - INFO 1460 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource  [lineno:1825]: {dataSource-1} closed
+2020-10-09 00:05:27.053 - INFO 10232 --- [main] com.jfbian.AppTest                      [lineno:55]: Starting AppTest on SC-202003071912 with PID 10232 (started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-09 00:05:27.056 - INFO 10232 --- [main] com.jfbian.AppTest                      [lineno:655]: The following profiles are active: dev
+2020-10-09 00:05:29.243 - INFO 10232 --- [main] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-09 00:05:31.056 - INFO 10232 --- [main] com.jfbian.AppTest                      [lineno:61]: Started AppTest in 4.483 seconds (JVM running for 5.928)
+2020-10-09 00:05:31.514 - INFO 10232 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource  [lineno:1825]: {dataSource-1} closed
+2020-10-09 00:06:27.436 - INFO 5024 --- [main] com.jfbian.AppTest                      [lineno:55]: Starting AppTest on SC-202003071912 with PID 5024 (started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-09 00:06:27.438 - INFO 5024 --- [main] com.jfbian.AppTest                      [lineno:655]: The following profiles are active: dev
+2020-10-09 00:06:29.487 - INFO 5024 --- [main] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-09 00:06:31.052 - INFO 5024 --- [main] com.jfbian.AppTest                      [lineno:61]: Started AppTest in 4.061 seconds (JVM running for 5.622)
+2020-10-09 00:06:31.505 - INFO 5024 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource  [lineno:1825]: {dataSource-1} closed
+2020-10-09 00:08:27.523 - INFO 4792 --- [main] com.jfbian.AppTest                      [lineno:55]: Starting AppTest on SC-202003071912 with PID 4792 (started by Administrator in D:\ProjectSharing_gitee.com\ScatteredKnowledge\mybatis_plus)
+2020-10-09 00:08:27.526 - INFO 4792 --- [main] com.jfbian.AppTest                      [lineno:655]: The following profiles are active: dev
+2020-10-09 00:08:29.639 - INFO 4792 --- [main] com.alibaba.druid.pool.DruidDataSource  [lineno:930]: {dataSource-1} inited
+2020-10-09 00:08:31.254 - INFO 4792 --- [main] com.jfbian.AppTest                      [lineno:61]: Started AppTest in 4.191 seconds (JVM running for 5.702)
+2020-10-09 00:08:31.824 - INFO 4792 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource  [lineno:1825]: {dataSource-1} closed
+2020-10-09 00:14:00.150 - INFO 10716 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      [lineno:173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-09 00:14:00.151 - INFO 10716 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:525]: Initializing Servlet 'dispatcherServlet'
+2020-10-09 00:14:00.158 - INFO 10716 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet       [lineno:547]: Completed initialization in 7 ms

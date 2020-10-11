@@ -33,9 +33,9 @@ public class AppTest {
     @Test
     public void testInsert(){
         User user = new User();
-        user.setName("狂神说Java");
+        user.setName("bbbbbb");
         user.setAge(3);
-        user.setEmail("24736743@qq.com");
+        user.setEmail("bbbbbb@qq.com");
 
         int result = userMapper.insert(user); // 帮我们自动生成id
         System.out.println(result); // 受影响的行数
@@ -46,8 +46,8 @@ public class AppTest {
     public void testUpdate(){
         User user = new User();
         // 通过条件自动拼接动态sql
-        user.setId(1269806860853084163L);
-        user.setName("关注公众号：狂神说xxxx");
+        user.setId(1269806860853084169L);
+        user.setName("bbbbbb");
         user.setAge(22);
         // 注意：updateById 但是参数是一个 对象！
         int i = userMapper.updateById(user);

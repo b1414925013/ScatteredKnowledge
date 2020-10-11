@@ -22,3 +22,14 @@ $("#btn").click(function () {
         }
     })
 })
+$("#btn2").click(function () {
+    axios.post(_url + "/userModer/user/byid2", params)
+        .then(function (response) {
+            console.log(response);
+            divid.text("请求成功")
+        })
+        .catch(function (error) {
+            console.log(error);
+            divid.text("请求失败")
+        });
+})

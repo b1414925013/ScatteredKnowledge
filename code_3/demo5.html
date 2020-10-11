@@ -4,22 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>demo5</title>
+    <title>下载文件</title>
     <link rel="stylesheet" href="lib/layui/css/layui.css">
     <script src="lib/layui/layui.js"></script>
+    <script src="lib/jquery-3.5.1.js"></script>
     <script src="js/common.js"></script>
 </head>
 
 <body>
-    <div id="divid" style="height: 30px;background-color: aqua;"></div>
-    <br />
-    <button id="btn" style="width: 50px;height: 30px;">按钮</button>
-    <br />
-    <!-- 模拟下载模板文件（下载的是前台文件夹文件） -->
-    <button><a href="resources/template/testFile.xlsx" download="testFile.xlsx">点击下载</a></button>
-    <br />
-    <!-- 模拟下载模板文件 -->
-    <button><a href="resources/img/testImg.png" download="testImg.png">点击下载</a></button>
+    <button id="downloadbtn" class="layui-btn layui-btn-primary">点击下载</button>
+    <hr />
+    <form id="queryCourseForm">
+        <input type="text" name="name1" />
+        <input type="text" name="name2" />
+        <div id="downloadbtn2" class="layui-btn layui-btn-normal">点击下载2</div>
+    </form>
+    <hr />
+    <form id="queryCourseForm3">
+        <input type="text" name="name1" />
+        <input type="text" name="name2" />
+        <div id="downloadbtn3" class="layui-btn">点击下载3</div>
+    </form>
     <script src="js/demo5.js"></script>
 </body>
 

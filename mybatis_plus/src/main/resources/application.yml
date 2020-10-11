@@ -1,0 +1,55 @@
+logging:
+    file:
+        name: ./log/mybatis_plus.log
+    level:
+        root: info
+    pattern:
+        console: '%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p})
+            %clr(${PID:- }){magenta} %clr(---){faint} %clr([%t]){faint} %clr(%-40.40logger{39}){cyan}[lineno:%line]    %clr(:){faint}
+            %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}'
+        file: '%d{yyyy-MM-dd HH:mm:ss.SSS} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } ---
+            [%t] %-40.40logger{39}[lineno:%line]: %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}'
+mybatis-plus:
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    global-config:
+        db-config:
+            db-type: mysql
+            id-type: auto
+            logic-delete-value: 1
+            logic-not-delete-value: 0
+    mapper-locations: classpath*:mybatis/**/xml/*.xml
+server:
+    port: 80
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        initialSize: 10
+        maxActive: 200
+        maxWait: 60000
+        minIdle: 30
+        password: 123456
+        poolPreparedStatements: true
+        testOnBorrow: false
+        testOnReturn: false
+        testWhileIdle: true
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/mybatis_plus?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+        username: root
+        validationQuery: SELECT 1
+    devtools:
+        restart:
+            poll-interval: 2s
+            quiet-period: 1s
+    profiles:
+        active: dev
+    servlet:
+        multipart:
+            max-file-size: 10MB
+            max-request-size: 20MB
+thread:
+    pool:
+        corePoolSize: 10
+        keepAliveSeconds: 10
+        maxPoolSize: 50
+        queueCapacity: 300
